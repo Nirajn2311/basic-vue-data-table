@@ -42,7 +42,7 @@ export default {
 		currentSortDir: 'asc',
 		search: '',
 		searchSelection: '',
-		pageSize: 5,
+		pageSize: 25,
 		currentPage: 1
 	}),
 

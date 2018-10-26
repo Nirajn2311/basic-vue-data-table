@@ -92,7 +92,7 @@ export default {
   },
 
   created () {
-    return axios.get('https://gist.githubusercontent.com/diomed/da5b879b026486e9bcab13dc2946d1a0/raw/cb2525b8cbd4bb6f5ac71da42f71d2e78f8703e8/library.json')
+    return axios.get('https://gist.githubusercontent.com/diomed/1d6fe143db4f2d6a3c16ac9d47d95193/raw/23a5f90d7755c380196b3b2860abe6ec0e9c7790/library.json')
       .then(response => {
         this.users = response.data
       })
